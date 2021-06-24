@@ -10,7 +10,7 @@ public class main {
 	public static void main(String[] args) {
 	
 		Configuration cfg=new Configuration();
-		cfg.configure("hibernate.cfg.xml");
+		cfg.configure("hibernate.cfg1.xml");
 		
 		SessionFactory sf=cfg.buildSessionFactory();
 		Session session=sf.openSession();
